@@ -3,8 +3,8 @@
 /**
  * Wrapper Widget to use jQuery Select2 in Yii application.
  *
- * @author Tonin R. Bolzan <admin@tonybolzan.com>
- * @copyright Copyright &copy; 2013 tonybolzan.com
+ * @author Muhammad Omer Aslam <buttflattery@hotmail.com>
+ * @copyright Copyright &copy; 2014 omaraslam.com
  * @package extensions
  * @subpackage select2
  * @license http://www.opensource.org/licenses/mit-license.php MIT License
