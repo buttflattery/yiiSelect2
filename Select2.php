@@ -28,7 +28,7 @@ class Select2 extends CInputWidget
     public $data;
     public $onTrigger=array();
 
-    /** Publish assets and set default values for properties */
+    /** Initiialize method to publish assets */
     public function init()
     {
         $dir = dirname(__FILE__) . '/assets';
@@ -57,7 +57,7 @@ class Select2 extends CInputWidget
         
     }
 
-    /** Render widget html and register client scripts */
+    /**Update scripts and bind events */
     public function run()
     {
         list($name, $id) = $this->resolveNameID();
@@ -123,7 +123,7 @@ class Select2 extends CInputWidget
             
     }
 
-    /** Single item select */
+    
     public static function dropDownList($name, $select, $data, $htmlOptions = array())
     {
         return Yii::app()->getController()->widget(__CLASS__, array(
@@ -139,7 +139,7 @@ class Select2 extends CInputWidget
         return self::dropDownList(CHtml::activeName($model, $attribute), CHtml::value($model, $attribute), $data, $htmlOptions);
     }
 
-    /** Multiple items select */
+    /** Multiple elect */
     public static function multiSelect($name, $select, $data, $htmlOptions = array())
     {
         return Yii::app()->getController()->widget(__CLASS__, array(
