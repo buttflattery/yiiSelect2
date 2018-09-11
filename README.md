@@ -34,7 +34,7 @@ Or in config to make it avaiable overall site
 Simple call `Select2::dropDownList()`
 Model reference  `Select2::activeDropDownList()`
 
-##Advanced
+## Advanced
 ```php
     ...
     echo Select2::multiSelect("test", '', array('Apple','Banana','Orange','Apricot','Black Current'), 
