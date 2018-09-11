@@ -5,7 +5,7 @@ Extension to use jQuery Plugin Select2 in Yii application.
 courtesy Select2 script: https://github.com/ivaynberg/select2
 
 
-##Whats new 
+## Whats new 
 Event binding support for select2 yii extension no need to write any line of javascript configure the whole dropdow via select2 extension
 
 
@@ -68,7 +68,7 @@ Or this
     ));
     ...
 ```
-##Initialize options with javascript function or expressions
+## Initialize options with javascript function or expressions
 Example populating text field with ajax support
 ```php
     ...
@@ -138,7 +138,7 @@ following  javascript is rendered by extension with the above piece of php code
 
 ```
 
-##Binding Events Examples with dropdown list
+## Binding Events Examples with dropdown list
 A dropdown example triggering the events "select2-selecting" and "select2-removed" 
 which fire on selecting a choice and clearing a choice 
 ```php
